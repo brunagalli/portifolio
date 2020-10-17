@@ -32,7 +32,7 @@
         </div>
       </header>
       
-      <div class="sidebar">
+      <aside class="sidebar">
         <nav>
           <ul class="menu">
             <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
@@ -47,7 +47,163 @@
           <a href="#"><i class="fab fa-github"></i></a>
           <a href="#"><i class="fab fa-instagram"></i></a>
         </div>
-      </div>
+      </aside>
+
+      <section class="sessao-conhecimentos">
+        <div class="sessao-header">
+          <h1>Conhecimentos</h1>
+        </div>
+        <div class="conhecimentos">
+          <div class="conhecimento">
+            <div class="conhecimento-header">
+              <i class="fab fa-html5"></i>
+              <h3>HTML</h3>
+            </div>
+            <div class="conhecimento-text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+          <div class="conhecimento">
+            <div class="conhecimento-header">
+              <i class="fab fa-css3-alt"></i>
+              <h3>CSS</h3>
+            </div>
+            <div class="conhecimento-text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+          <div class="conhecimento">
+            <div class="conhecimento-header">
+              <i class="fas fa-pencil-alt"></i>
+              <h3>DESIGN</h3>
+            </div>
+            <div class="conhecimento-text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+          <div class="conhecimento">
+            <div class="conhecimento-header">
+              <i class="fab fa-js"></i>
+              <h3>JS</h3>
+            </div>
+            <div class="conhecimento-text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+          <div class="conhecimento">
+            <div class="conhecimento-header">
+              <i class="fab fa-bootstrap"></i>
+              <h3>BOOTSTRAP</h3>
+            </div>
+            <div class="conhecimento-text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+          <div class="conhecimento">
+            <div class="conhecimento-header">
+              <i class="fab fa-github"></i>
+              <h3>GIT E GITHUB</h3> 
+            </div>
+            <div class="conhecimento-text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="conhecimento-img-wrapper">
+          <img src="assets/developer-tec.jpg" alt="Developer" width="410">
+        </div> -->
+      </section>
+
+      <section class="sessao-projetos">
+        <div class="sessao-header">
+          <h1>Projetos</h1>
+        </div>
+        <div class="projetos">
+          <div class="card">
+            <div class="card-img-wrapper">
+              <img src="assets/sea.jpg" alt="Sea">
+            </div>
+            <div class="card-info">
+              <h2>Of the Sea</h2>
+              <h3>JAVASCRIPT</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <button class="btn">Saiba Mais</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-wrapper">
+              <img src="assets/city.jpg" alt="">
+            </div>
+            <div class="card-info">
+              <h2>beautiful buildings</h2>
+              <h3>HTML, CSS & JS</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <button class="btn">Saiba Mais</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-wrapper">
+              <img src="assets/lights-on-the-city.jpg" alt="">
+            </div>
+            <div class="card-info">
+              <h2>On the City</h2>
+              <h3>HTML, CSS</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <button class="btn">Saiba Mais</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="sessao-contato">
+        <div class="contato-wrapper">
+          <div class="contato-left">
+
+          </div>
+          <div class="contato-right">
+            <h1>contato</h1>
+            <form action="">
+              <div class="input-group">
+                <input placeholder="Nome" type="text" class="field">
+              </div>
+              <div class="input-group">
+                <input placeholder="E-mail" type="email" class="field">
+              </div>
+              <div class="input-group">
+                <textarea placeholder="Mensagem" name="" id="" class="field" cols="30" rows="10"></textarea>
+              </div>
+            <button type="submit" class="btn btn-submit">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="sessao-orcamento">
+        <div class="orcamento-wrapper">
+          <h1>Faça um orçamento</h1>
+          <form action="">
+            <label for="qtde">Quantidade de páginas</label>
+            <input type="number" min="1" id="qtde" name="">
+            <label for="js">Preciso de um script JS</label>
+            <input type="checkbox" name="js" id="js">
+            <label>Layout</label>
+            <div class="group-layout">
+              <div>
+                <input type="radio" name="layout" id="layout-sim">
+                <label for="layout-sim">Preciso de um layout</label>
+              </div>
+              <div>
+                <input type="radio" name="layout" id="layout-nao">
+                <label for="layout-nao">Já tenho um layout</label>
+              </div>
+            </div>
+            <label for="prazo">Prazo</label>
+            <input type="range" name="prazo" id="prazo">
+            <button class="btn btn-orcamento" type="submit">Enviar</button>
+          </form>
+        </div>
+      </section>
 
     </div>
 
